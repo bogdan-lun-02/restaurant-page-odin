@@ -1,3 +1,6 @@
 import "./styles.css";
 
-console.log('12345');
+import { initialPageLoad } from "./homepage";
+import { menuLoad } from "./menu";
+
+window.addEventListener('DOMContentLoaded', menuLoad);
