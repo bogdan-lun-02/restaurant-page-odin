@@ -67,7 +67,7 @@ button {
 	z-index: 10;
 }
 
-button:hover {
+button:hover, .menuItem:hover {
 	background: var(--primary-color);
 	color: var(--background-color);
 	opacity: 0.8;
@@ -121,9 +121,34 @@ button:hover {
   width: 90%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menuItem img{
   width: 10%;
-height: 10%;
+  height: 10%;
+}
+
+/* ABOUT */
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutText {
+  width: 90%;
+  margin-bottom: 200px;
+}
+
+.credit {
+  color: var(--primary-color);
 }

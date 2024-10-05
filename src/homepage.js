@@ -2,6 +2,7 @@ import vaultBoy from "./img/vaultboy.webp";
 
 export function initialPageLoad() {
   const content = document.getElementById('content');
+  content.innerHTML = '';
 
   const div = document.createElement('div');
   const h1 = document.createElement('h1');
